@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskPad</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <div id="appFrame" class="app-frame">
+      <!-- app-header -->
+      <header id="appHeader" class="app-header">
+        <nav class="menubar">
+          <h3>TaskPad</h3>
+        </nav>
+      </header>
+      <!-- app-view -->
+      <main id="appView" class="app-view">
+        <ul id="taskList" class="tasklist">
+        </ul>
+      </main>
+      <!-- app-footer -->
+      <footer id="appFooter" class="app-footer">
+        <nav class="menubar menubar--footer">
+          <input id="task" type="text">
+          <button 
+            class="btn btn--open-add" 
+            onclick="addTask()">
+          </button>
+        </nav>
+      </footer>
+    </div>
+    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="./assets/js/taskpad.js"></script>
+  </body>
+</html>
